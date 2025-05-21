@@ -5,7 +5,7 @@ This project is a Scrapy-based web crawler that scans [marxists.org](https://www
 ## What It Does
 
 - Crawls all `volumeXX.htm` pages listed on the Lenin Collected Works index
-- It is set to specifically the "volume15.htm". It can be modified
+- It is set specifically to "volume15.htm", can be modified
 - Follows links to `partXX.htm` files inside each volume
 - Extracts all `<p>` tags
 - Filters paragraphs that contain any of the following keywords:
